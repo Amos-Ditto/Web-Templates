@@ -27,6 +27,9 @@
                             Our lawyers provide expert guidance and exceptional client service to protect and advance
                             clients' interests. Building strong relationships is our top priority.
                         </p>
+                        <span class="text-[#AD9263] text-base uppercase underline underline-offset-4 mt-3">
+                            learn more</span
+                        >
                     </div>
                 </div>
                 <div class="flex flex-col items-center">
