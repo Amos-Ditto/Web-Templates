@@ -4,7 +4,7 @@
             <div class="w-full grid grid-cols-2 gap-x-12">
                 <div class="flex flex-col items-start justify-between py-8 gap-y-10">
                     <div class="w-full flex flex-col gap-y-4">
-                        <h4 class="text-xl text-[#AD9263] uppercase font-bold tracking-wide">Firm overview</h4>
+                        <h4 class="text-lg text-[#AD9263] uppercase font-bold tracking-wide">Firm overview</h4>
                         <h3 class="text-4xl font-semibold mt-3">Who we are</h3>
                         <div class="flex flex-col gap-y-1 w-full">
                             <p class="text-lg">
