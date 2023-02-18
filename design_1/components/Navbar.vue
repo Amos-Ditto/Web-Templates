@@ -1,5 +1,5 @@
 <template>
-    <nav class="w-full flex flex-row items-center justify-between py-3 px-28 z-30 sticky top-0 shadow-sm bg-[#f8f8f2]">
+    <nav class="w-full flex flex-row items-center justify-between py-3 px-28 z-30 sticky top-0 shadow bg-[#f8f8f2]">
         <div class="left flex flex-row items-center">
             <NuxtImg src="/logos/black-logo.png" class="h-[4.2rem] w-auto" />
         </div>

@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full flex flex-col gap-y-4 py-4 mt-10">
-        <div class="w-full px-48 flex flex-col py-16 bg-[url('/pattern.svg')] bg-top">
+    <div class="w-full flex flex-col gap-y-4 py-4 mt-0">
+        <div class="w-full px-48 flex flex-col py-4 bg-[url('/pattern.svg')] bg-top">
             <div class="w-full grid grid-cols-2 gap-x-12">
                 <div class="flex flex-col items-start justify-between py-8 gap-y-10">
                     <div class="w-full flex flex-col gap-y-4">
@@ -8,12 +8,11 @@
                         <h3 class="text-4xl font-semibold mt-3">Who we are</h3>
                         <div class="flex flex-col gap-y-1 w-full">
                             <p class="text-lg">
-                                At S&W we specialize in a wide range of legal services to meet the diverse needs of the
-                                clients
-                            </p>
-                            <p class="text-lg">
-                                Our lawyers provide expert guidance and exceptional client service to protect and
-                                advance clients' interests. Building strong relationships is our top priority.
+                                Sheth & Wathigo Advocates aspires to be the most innovative law firm by building
+                                long-term relationships with clients based on reciprocity, trust and highest standards
+                                of professional ethics. By adopting new models and technology for efficient delivery of
+                                legal services, we strive to redefine the role that a law firm plays in emerging times,
+                                in order to produce truly exceptional results for our clients.
                             </p>
                         </div>
                     </div>
