@@ -1,9 +1,11 @@
 <template>
     <div class="w-full flex flex-col gap-y-4 py-8">
-        <div class="w-full px-48 flex flex-col gap-y-4">
-            <h4 class="text-lg text-[#AD9263] uppercase font-bold tracking-wide">Firm Attorneys & Partners</h4>
+        <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 flex flex-col gap-y-4">
+            <h4 class="text-base lg:text-lg text-[#AD9263] uppercase font-bold tracking-wide">
+                Firm Attorneys & Partners
+            </h4>
             <div class="w-[65%] flex flex-col gap-y-2 mt-4">
-                <h2 class="text-4xl font-black">Meet our Team</h2>
+                <h2 class="text-3xl lg:text-4xl font-black">Meet our Team</h2>
                 <p class="text-base text-neutral-700">
                     Our lawyers provide expert guidance and exceptional client service to protect and advance clients'
                     interests. Building strong relationships is our top priority.
@@ -28,15 +30,17 @@
                 </div>
             </div>
         </div>
-        <div class="w-full px-48 py-8 flex flex-col gap-y-5 bg-gray-100">
-            <div class="w-full grid grid-cols-3 gap-x-6">
+        <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 py-8 flex flex-col gap-y-5 bg-gray-100">
+            <div class="w-full grid grid-cols-3 gap-x-3 lg:gap-x-6">
                 <div class="flex flex-col gap-y-4 py-2 px-3 bg-white rounded-md">
                     <div class="w-full flex items-center justify-center">
                         <NuxtImg src="/team/1.png" class="w-[96%] bg-fit" />
                     </div>
                     <div class="w-full flex flex-col gap-y-3 px-2">
                         <div class="title w-full flex flex-col gap-y-1">
-                            <h3 class="name text-2xl font-semibold capitalize truncate">Daniel Gatumu Ndeke</h3>
+                            <h3 class="name text-xl xl:text-2xl font-semibold capitalize truncate">
+                                Daniel Gatumu Ndeke
+                            </h3>
                             <h4 class="text-lg text-[#AD9263] uppercase">Managing Partner</h4>
                         </div>
                         <div class="w-full flex flex-col gap-y-2">
@@ -58,7 +62,9 @@
                     </div>
                     <div class="w-full flex flex-col gap-y-3 px-2">
                         <div class="title w-full flex flex-col gap-y-1">
-                            <h3 class="name text-2xl font-semibold capitalize truncate">Kisilah Daniel Gor</h3>
+                            <h3 class="name text-xl xl:text-2xl font-semibold capitalize truncate">
+                                Kisilah Daniel Gor
+                            </h3>
                             <h4 class="text-lg text-[#AD9263] uppercase">Partner</h4>
                         </div>
                         <div class="w-full flex flex-col gap-y-2">
@@ -80,7 +86,7 @@
                     </div>
                     <div class="w-full flex flex-col gap-y-3 px-2">
                         <div class="title w-full flex flex-col gap-y-1">
-                            <h3 class="name text-2xl font-semibold capitalize truncate">Betty Mwangi</h3>
+                            <h3 class="name text-xl xl:text-2xl font-semibold capitalize truncate">Betty Mwangi</h3>
                             <h4 class="text-lg text-[#AD9263] uppercase">Partner</h4>
                         </div>
                         <div class="w-full flex flex-col gap-y-2">

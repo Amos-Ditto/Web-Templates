@@ -1,16 +1,18 @@
 <template>
-    <div class="w-full flex flex-col gap-y-8 px-48 py-8 mt-6 bg-[url('/pattern.svg')] bg-top">
+    <div
+        class="w-full flex flex-col gap-y-8 px-4 md:px-8 lg:px-20 xl:px-48 py-8 mt-4 xl:mt-6 bg-[url('/pattern.svg')] bg-top"
+    >
         <div class="w-full flex flex-col gap-y-1">
             <h4 class="text-base uppercase font-light text-[#AD9263]">Let's talk</h4>
-            <h1 class="text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
+            <h1 class="text-3xl lg:text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
             <p class="text-base text-neutral-700 mt-3">
                 We’d love to hear from you! Drop us Email and let’s start a conversation.
             </p>
         </div>
-        <div class="w-full grid grid-cols-2 gap-12 pt-0">
+        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-12 pt-0">
             <div class="flex flex-col gap-y-4">
-                <form class="mt-6 w-full">
-                    <div class="grid gap-6 mb-6 md:grid-cols-2">
+                <form class="mt-4 xl:mt-6 w-full pr-10 md:pr-0">
+                    <div class="grid gap-6 mb-4 xl:mb-6 md:grid-cols-2">
                         <div>
                             <label for="first_name" class="block mb-2 text-base font-medium text-gray-900"
                                 >First name</label
@@ -36,7 +38,7 @@
                             />
                         </div>
                     </div>
-                    <div class="mb-6">
+                    <div class="mb-4 xl:mb-6">
                         <label for="phone" class="block mb-2 text-base font-medium text-gray-900">Phone number</label>
                         <input
                             type="tel"
@@ -47,7 +49,7 @@
                             required
                         />
                     </div>
-                    <div class="mb-6">
+                    <div class="mb-4 xl:mb-6">
                         <label for="email" class="block mb-2 text-base font-medium text-gray-900">Email address</label>
                         <input
                             type="email"
@@ -57,7 +59,7 @@
                             required
                         />
                     </div>
-                    <div class="mb-6">
+                    <div class="mb-4 xl:mb-6">
                         <label for="subject" class="block mb-2 text-base font-medium text-gray-900">Subject</label>
                         <input
                             type="text"
@@ -67,8 +69,10 @@
                             required
                         />
                     </div>
-                    <div class="mb-6">
-                        <label for="message" class="block mb-2 text-base font-medium text-gray-900">Your message</label>
+                    <div class="mb-4 xl:mb-6">
+                        <label for="message" class="block mb-2 text-base font-medium text-gray-900"
+                            >Your message (optional)</label
+                        >
                         <textarea
                             id="message"
                             rows="4"
@@ -78,25 +82,25 @@
                     </div>
                     <button
                         type="submit"
-                        class="mt-4 text-white bg-[#AD9263] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-base tracking-wide uppercase w-full sm:w-auto px-10 py-3 text-center"
+                        class="text-white bg-[#AD9263] hover:bg-[#AD9263]/80 focus:ring-2 outline-none focus:ring-[#AD9263] font-medium rounded-lg text-lg tracking-wide uppercase w-full sm:w-auto px-8 py-2 transition duration-200"
                     >
                         Submit
                     </button>
                 </form>
             </div>
             <div class="flex flex-col pt-6">
-                <div class="w-full h-full flex justify-end items-center z-0">
+                <div class="w-full h-[300px] md:h-full flex justify-end items-center z-0">
                     <Map />
                 </div>
             </div>
         </div>
         <div class="flex flex-col gap-y-2 mt-4">
-            <h3 class="text-3xl font-semibold">Call us</h3>
+            <h3 class="text-2xl lg:text-3xl font-semibold">Call us</h3>
             <p class="text-base">
                 Questions about availability, plans, or consultancy? Just have your people call our people.
             </p>
             <div class="flex flex-row items-center gap-x-2 mt-4">
-                <div class="w-5 h-5">
+                <div class="w-4 lg:w-5 h-4 lg:h-5">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -112,7 +116,7 @@
                         ></path>
                     </svg>
                 </div>
-                <span class="text-xl text-blue-500 font-black">(+254) 794 818 111</span>
+                <span class="text-lg lg:text-xl text-blue-500 font-black">(+254) 794 818 111</span>
             </div>
         </div>
     </div>

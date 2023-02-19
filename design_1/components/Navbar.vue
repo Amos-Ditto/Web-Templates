@@ -1,10 +1,12 @@
 <template>
-    <nav class="w-full flex flex-row items-center justify-between py-3 px-28 z-50 sticky top-0 shadow bg-[#f8f8f2]">
+    <nav
+        class="w-full flex flex-row items-center justify-between py-2 sm:py-3 px-8 xl:px-16 2xl:px-28 z-50 sticky top-0 shadow bg-[#f8f8f2]"
+    >
         <div class="left flex flex-row items-center">
-            <NuxtImg src="/logos/black-logo.png" class="h-[4.2rem] w-auto" />
+            <NuxtImg src="/logos/black-logo.png" class="h-[3.8rem] xl:h-[4.2rem] w-auto" />
         </div>
         <div class="right flex flex-row items-center gap-x-8">
-            <div class="links flex flex-row items-center gap-x-8">
+            <div class="links hidden lg:flex flex-row items-center gap-x-6 xl:gap-x-8">
                 <span>About</span>
                 <span>practice areas</span>
                 <span>our clients</span>
@@ -14,9 +16,9 @@
         </div>
         <div class="flex flex-row items-center">
             <button
-                class="px-4 py-2 rounded-3xl border border-blue-500 text-blue-500 text-lg font-semibold flex flex-row items-center gap-x-2"
+                class="px-4 py-2 rounded-3xl border border-blue-500 text-blue-500 text-base xl:text-lg font-semibold hidden md:flex flex-row items-center gap-x-2"
             >
-                <div class="w-5 h-5">
+                <div class="w-4 xl:w-5 h-4 xl:h-5">
                     <svg
                         fill="none"
                         stroke="currentColor"
@@ -40,6 +42,6 @@
 
 <style scoped>
 .links span {
-    @apply text-base tracking-wide uppercase font-medium cursor-pointer;
+    @apply text-base xl:tracking-wide uppercase font-medium cursor-pointer;
 }
 </style>

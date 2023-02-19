@@ -8,7 +8,7 @@
             ></l-tile-layer>
             <l-marker :lat-lng="[-0.289656, 36.067809]">
                 <l-icon :icon-anchor="[13, 40]">
-                    <NuxtImg src="/placeholder.png" class="w-8 h-8" />
+                    <NuxtImg src="/placeholder.png" class="w-10 h-10" />
                 </l-icon>
             </l-marker>
         </l-map>
