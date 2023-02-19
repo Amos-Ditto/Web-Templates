@@ -17,13 +17,13 @@
                 </div>
                 <div class="flex flex-row items-center gap-x-4">
                     <div class="flex flex-col items-center">
-                        <NuxtImg src="/arrow.png" class="w-14 h-7 rotate-180 opacity-60 cursor-pointer" />
+                        <NuxtImg src="/arrow-mobile.svg" class="rotate-180 opacity-60 cursor-pointer" />
                     </div>
                     <div class="flex flex-row items-center">
-                        <NuxtImg src="/slash.png" class="opacity-60 h-8 w-5" />
+                        <span class="flex flex-row items-center gap-x-2 text-sm font-mono tracking-wide">01 / 02</span>
                     </div>
                     <div class="flex flex-col items-center">
-                        <NuxtImg src="/arrow-active.png" class="w-14 h-7 cursor-pointer" />
+                        <NuxtImg src="/arrow-mobile.svg" class="cursor-pointer opacity-95" />
                     </div>
                 </div>
             </div>

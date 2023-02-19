@@ -1,23 +1,14 @@
-<script setup lang="ts">
-import { LMap, LTileLayer, LMarker } from 'vue2-leaflet'
-
-const url = ref<string>('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
-const attribution = ref<string>(
-    '&copy; <a target="_blank" href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-)
-const zoom = ref<number>(15)
-const center = ref<number[]>([51.505, -0.159])
-const markerLatLng = ref<number[]>([51.504, -0.159])
-</script>
 <template>
-    <div class="w-full flex flex-col gap-y-2 px-48 py-4 mt-6 bg-[url('/pattern.svg')] bg-top">
-        <div class="w-full grid grid-cols-2 gap-8 pt-4">
+    <div class="w-full flex flex-col gap-y-8 px-48 py-8 mt-6 bg-[url('/pattern.svg')] bg-top">
+        <div class="w-full flex flex-col gap-y-1">
+            <h4 class="text-base uppercase font-light text-[#AD9263]">Let's talk</h4>
+            <h1 class="text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
+            <p class="text-base text-neutral-700 mt-3">
+                We’d love to hear from you! Drop us Email and let’s start a conversation.
+            </p>
+        </div>
+        <div class="w-full grid grid-cols-2 gap-12 pt-0">
             <div class="flex flex-col gap-y-4">
-                <div class="w-full flex flex-col gap-y-1">
-                    <h4 class="text-base uppercase font-light text-[#AD9263]">Let's talk</h4>
-                    <h1 class="text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
-                </div>
-
                 <form class="mt-6 w-full">
                     <div class="grid gap-6 mb-6 md:grid-cols-2">
                         <div>
@@ -93,15 +84,35 @@ const markerLatLng = ref<number[]>([51.504, -0.159])
                     </button>
                 </form>
             </div>
-            <div class="flex flex-col">
-                <div class="w-full">
-                    <client-only>
-                        <l-map style="height: 300px" :zoom="zoom" :center="center">
-                            <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
-                            <l-marker :lat-lng="markerLatLng"></l-marker>
-                        </l-map>
-                    </client-only>
+            <div class="flex flex-col pt-6">
+                <div class="w-full h-full flex justify-end items-center z-0">
+                    <Map />
                 </div>
+            </div>
+        </div>
+        <div class="flex flex-col gap-y-2 mt-4">
+            <h3 class="text-3xl font-semibold">Call us</h3>
+            <p class="text-base">
+                Questions about availability, plans, or consultancy? Just have your people call our people.
+            </p>
+            <div class="flex flex-row items-center gap-x-2 mt-4">
+                <div class="w-5 h-5">
+                    <svg
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                        ></path>
+                    </svg>
+                </div>
+                <span class="text-xl text-blue-500 font-black">(+254) 794 818 111</span>
             </div>
         </div>
     </div>

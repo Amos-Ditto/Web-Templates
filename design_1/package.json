@@ -23,8 +23,10 @@
     "prettier": "^2.8.4"
   },
   "dependencies": {
+    "@vue-leaflet/vue-leaflet": "^0.8.3",
     "leaflet": "^1.9.3",
     "tailwindcss-dark-mode": "^1.1.7",
-    "vue2-leaflet": "^2.7.1"
+    "vue-collapsed": "^1.1.2",
+    "vue-leaflet": "link:@types/@vue-leaflet/vue-leaflet"
   }
 }
