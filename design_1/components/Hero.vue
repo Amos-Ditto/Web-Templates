@@ -4,7 +4,7 @@
             class="w-full flex flex-col lg:items-center justify-center h-[54vh] sm:h-[60vh] lg:h-[66vh] px-4 sm:px-8 lg:px-20 2xl:px-36 bg-[url('/law-bg.webp')] bg-cover bg-right bg-[#212121] z-0 relative"
         >
             <div
-                class="w-full sm:w-[86%] md:w-[80%] lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-4 md:px-8 z-10"
+                class="w-full sm:w-[86%] md:w-[80%] lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-2 sm:px-4 md:px-8 z-10"
             >
                 <div class="col-span-2 lg:col-span-1 flex flex-col justify-center">
                     <h1
@@ -48,7 +48,7 @@
             <div class="absolute top-0 bottom-0 right-0 left-0 z-0 bg-black/40 filter backdrop-blur-[3px]"></div>
         </div>
         <ul
-            class="w-full flex flex-row flex-wrap py-2 md:py-4 px-2 sm:px-4 md:px-8 lg:px-24 xl:px-48 bg-[#212121] gap-x-2.5 sm:gap-x-4 lg:gap-x-8 justify-between items-center"
+            class="w-full grid grid-cols-2 sm:flex flex-row flex-wrap py-2 md:py-4 px-2 sm:px-4 md:px-8 lg:px-24 xl:px-48 bg-[#212121] gap-x-2.5 sm:gap-x-4 lg:gap-x-8 justify-between items-center"
         >
             <li class="flex flex-col gap-y-3 xl:gap-y-4 items-start py-1.5 px-4">
                 <div class="flex flex-row items-center py-2 pr-4 border-b border-neutral-600 justify-start">

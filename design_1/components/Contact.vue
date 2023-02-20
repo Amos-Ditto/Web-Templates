@@ -11,32 +11,16 @@
         </div>
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-12 pt-0">
             <div class="flex flex-col gap-y-4">
-                <form class="mt-4 xl:mt-6 w-full pr-10 md:pr-0">
-                    <div class="grid gap-6 mb-4 xl:mb-6 md:grid-cols-2">
-                        <div>
-                            <label for="first_name" class="block mb-2 text-base font-medium text-gray-900"
-                                >First name</label
-                            >
-                            <input
-                                type="text"
-                                id="first_name"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-[#AD9263] focus:border-[#AD9263] block w-full p-2.5 outline-none transition duration-200"
-                                placeholder="John"
-                                required
-                            />
-                        </div>
-                        <div>
-                            <label for="last_name" class="block mb-2 text-base font-medium text-gray-900"
-                                >Last name</label
-                            >
-                            <input
-                                type="text"
-                                id="last_name"
-                                class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-[#AD9263] focus:border-[#AD9263] block w-full p-2.5 outline-none transition duration-200"
-                                placeholder="Doe"
-                                required
-                            />
-                        </div>
+                <form class="mt-4 xl:mt-6 w-full sm:pr-10 md:pr-0">
+                    <div class="mb-4 xl:mb-6">
+                        <label for="f_name" class="block mb-2 text-base font-medium text-gray-900">Full name</label>
+                        <input
+                            type="text"
+                            id="f_name"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-[#AD9263] focus:border-[#AD9263] block w-full p-2.5 outline-none transition duration-200"
+                            placeholder="John Doe"
+                            required
+                        />
                     </div>
                     <div class="mb-4 xl:mb-6">
                         <label for="phone" class="block mb-2 text-base font-medium text-gray-900">Phone number</label>

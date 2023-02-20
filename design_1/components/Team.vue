@@ -1,10 +1,10 @@
 <template>
-    <div class="w-full flex flex-col gap-y-4 py-8">
+    <div class="w-full flex flex-col gap-y-4 py-4 sm:py-8">
         <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 flex flex-col gap-y-4">
             <h4 class="text-base lg:text-lg text-[#AD9263] uppercase font-bold tracking-wide">
                 Firm Attorneys & Partners
             </h4>
-            <div class="w-[65%] flex flex-col gap-y-2 mt-4">
+            <div class="sm:w-[65%] flex flex-col gap-y-2 mt-4">
                 <h2 class="text-3xl lg:text-4xl font-black">Meet our Team</h2>
                 <p class="text-base text-neutral-700">
                     Our lawyers provide expert guidance and exceptional client service to protect and advance clients'
@@ -17,7 +17,7 @@
                         learn more</span
                     >
                 </div>
-                <div class="flex flex-row items-center gap-x-4">
+                <div class="hidden sm:flex flex-row items-center gap-x-4">
                     <div class="flex flex-col items-center">
                         <NuxtImg src="/arrow-mobile.svg" class="rotate-180 opacity-60 cursor-pointer" />
                     </div>
