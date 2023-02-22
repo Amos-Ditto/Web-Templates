@@ -112,6 +112,6 @@
 
 <style scoped>
 .hero {
-    background-image: url('~/law-bg.webp');
+    background-image: url('/law-bg.webp');
 }
 </style>
