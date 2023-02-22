@@ -5,8 +5,15 @@
         <div class="w-full flex flex-col gap-y-1">
             <h4 class="text-base uppercase font-light text-[#AD9263]">Let's talk</h4>
             <h1 class="text-3xl lg:text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
-            <p class="text-base text-neutral-700 mt-3">
+            <p class="text-base lg:text-lg text-neutral-700 mt-3">
                 We’d love to hear from you! Drop us Email and let’s start a conversation.
+            </p>
+        </div>
+        <div class="flex flex-col gap-y-3">
+            <h3 class="text-2xl tracking-wide font-medium">We are Located At:</h3>
+            <p class="text-base sm:text-lg text-start">
+                Sheth & Wathigo Advocates D & D House, 7th Floor West Road/Oginga Odinga Avenue Junction P.O. Box
+                611-20100 NAKURU, KENYA.
             </p>
         </div>
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-12 pt-0">
@@ -59,14 +66,14 @@
                         >
                         <textarea
                             id="message"
-                            rows="4"
+                            rows="3"
                             class="block p-2.5 w-full text-base text-gray-900 bg-gray-50 rounded-lg outline-none border border-gray-300 focus:ring-[#AD9263] focus:border-[#AD9263] transition duration-200"
                             placeholder="Write your thoughts here..."
                         ></textarea>
                     </div>
                     <button
                         type="submit"
-                        class="text-white bg-[#AD9263] hover:bg-[#AD9263]/80 focus:ring-2 outline-none focus:ring-[#AD9263] font-medium rounded-lg text-lg tracking-wide uppercase w-full sm:w-auto px-8 py-2 transition duration-200"
+                        class="text-white bg-[#AD9263] hover:bg-[#AD9263]/80 focus:ring-2 outline-none focus:ring-[#AD9263] font-medium rounded-sm text-lg tracking-wide uppercase w-full sm:w-auto px-8 py-3 transition duration-200"
                     >
                         Submit
                     </button>
@@ -79,28 +86,33 @@
             </div>
         </div>
         <div class="flex flex-col gap-y-2 mt-4">
+            <small class="text-base mb-2 capitalize text-neutral-700">or</small>
             <h3 class="text-2xl lg:text-3xl font-semibold">Call us</h3>
-            <p class="text-base">
+            <p class="text-base lg:text-lg">
                 Questions about availability, plans, or consultancy? Just have your people call our people.
             </p>
-            <div class="flex flex-row items-center gap-x-2 mt-4">
-                <div class="w-4 lg:w-5 h-4 lg:h-5">
-                    <svg
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        aria-hidden="true"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                        ></path>
-                    </svg>
-                </div>
-                <span class="text-lg lg:text-xl text-blue-500 font-black">(+254) 794 818 111</span>
+            <div class="flex flex-row">
+                <button
+                    class="flex flex-row items-center gap-x-2 mt-4 py-3.5 px-4 text-white bg-[#AD9263] border border-neutral-200"
+                >
+                    <div class="w-4 lg:w-5 h-4 lg:h-5">
+                        <svg
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                            ></path>
+                        </svg>
+                    </div>
+                    <span class="text-lg lg:text-xl font-medium tracking-wide">+254-794 818 111</span>
+                </button>
             </div>
         </div>
     </div>

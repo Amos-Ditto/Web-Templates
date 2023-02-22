@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full flex flex-col gap-y-4 py-8">
-        <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 flex flex-col py-4 bg-[url('/pattern.svg')] bg-top">
+    <div class="w-full flex flex-col gap-y-4 py-0">
+        <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 flex flex-col py-12 bg-[url('/pattern.svg')] bg-top">
             <h4 class="text-base lg:text-lg text-[#AD9263] uppercase font-bold tracking-wide">Firm overview</h4>
             <div class="w-full grid md:grid-cols-2 gap-x-12 mt-4">
                 <div class="flex flex-col items-start justify-between xl:py-8 gap-y-10">

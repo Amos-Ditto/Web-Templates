@@ -1,7 +1,7 @@
 <template>
     <div class="w-full flex flex-col">
         <div
-            class="w-full flex flex-col lg:items-center justify-center h-[54vh] sm:h-[60vh] lg:h-[66vh] px-4 sm:px-8 lg:px-20 2xl:px-36 bg-[url('/law-bg.webp')] bg-cover bg-right bg-[#212121] z-0 relative"
+            class="hero w-full flex flex-col lg:items-center justify-center h-[54vh] sm:h-[60vh] lg:h-[66vh] px-4 sm:px-8 lg:px-20 2xl:px-36 bg-cover bg-right bg-[#212121] z-0 relative"
         >
             <div
                 class="w-full sm:w-[86%] md:w-[80%] lg:w-full grid grid-cols-1 lg:grid-cols-2 gap-x-4 px-2 sm:px-4 md:px-8 z-10"
@@ -109,3 +109,9 @@
         </ul>
     </div>
 </template>
+
+<style scoped>
+.hero {
+    background-image: url('~/law-bg.webp');
+}
+</style>
