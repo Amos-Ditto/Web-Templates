@@ -24,7 +24,7 @@ const slides = ref<{ image: string }[]>([
                         </div>
                     </div>
                 </div>
-                <div class="md:row-span-2 px-0 py-8">
+                <div class="md:row-span-2 px-0 py-2 sm:py-8">
                     <div class="w-full h-full flex flex-col items-center justify-center bg-[#AD9263]/20 px-2 py-2">
                         <!-- <NuxtImg src="/about/2.webp" class="w-[98%]" /> -->
                         <FeaturesCarouselAbout />

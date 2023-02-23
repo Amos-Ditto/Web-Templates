@@ -17,7 +17,7 @@
                         learn more</span
                     >
                 </div>
-                <div class="hidden sm:flex flex-row items-center gap-x-4">
+                <!-- <div class="hidden sm:flex flex-row items-center gap-x-4">
                     <div class="flex flex-col items-center">
                         <NuxtImg src="/arrow-mobile.svg" class="rotate-180 opacity-60 cursor-pointer" />
                     </div>
@@ -27,7 +27,7 @@
                     <div class="flex flex-col items-center">
                         <NuxtImg src="/arrow-mobile.svg" class="cursor-pointer opacity-95" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="w-full px-4 md:px-8 lg:px-20 xl:px-48 py-8 flex flex-col gap-y-5 bg-gray-100">
@@ -177,10 +177,10 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full flex flex-row items-center justify-center gap-x-2 pt-4">
+            <!-- <div class="w-full flex flex-row items-center justify-center gap-x-2 pt-4">
                 <button class="w-[4rem] h-[2px] bg-[#AD9263]"></button>
                 <button class="w-[4rem] h-[2px] bg-gray-300"></button>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

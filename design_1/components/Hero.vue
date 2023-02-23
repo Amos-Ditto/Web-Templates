@@ -1,3 +1,17 @@
+<script setup lang="ts">
+const headername = 'Sheth & Wathigo advocates'
+
+const displayname = ref<string>('')
+
+const playName = (): void => {
+    for (let i = 0; i < headername.length; i++) {
+        setTimeout(() => {
+            displayname.value += headername[i]
+        }, i * 125)
+    }
+}
+playName()
+</script>
 <template>
     <div class="w-full flex flex-col">
         <div
@@ -10,7 +24,7 @@
                     <h1
                         class="text-[#f8f8f2] font-mono text-4xl sm:text-5xl 2xl:text-6xl font-black uppercase leading-[1.18]"
                     >
-                        Sheth & Wathigo advocates
+                        {{ displayname }}
                     </h1>
                     <div class="flex flex-col w-full gap-y-1 text-[#f8f8f2] mt-4">
                         <p class="text-base sm:text-lg">
@@ -34,7 +48,7 @@
                 </button>
             </div>
             <div class="absolute top-0 bottom-0 left-0 right-0 -z-10">
-                <NuxtImg src="/law-bg.webp" class="w-full h-full" />
+                <NuxtImg src="/law-bg-2.webp" class="w-full h-full" />
             </div>
             <div class="absolute top-0 bottom-0 right-0 left-0 -z-10 bg-black/40 filter backdrop-blur-[3px]"></div>
         </div>
