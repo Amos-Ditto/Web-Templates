@@ -25,6 +25,7 @@
   "dependencies": {
     "@vue-leaflet/vue-leaflet": "^0.8.3",
     "leaflet": "^1.9.3",
+    "swiper": "^9.0.5",
     "tailwindcss-dark-mode": "^1.1.7",
     "vue-collapsed": "^1.1.2"
   }
