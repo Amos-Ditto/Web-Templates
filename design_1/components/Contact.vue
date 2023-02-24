@@ -6,7 +6,7 @@
             <h4 class="text-base uppercase font-light text-[#AD9263]">Let's talk</h4>
             <h1 class="text-3xl lg:text-4xl capitalize font-semibold mt-2">Request Consultation</h1>
             <p class="text-base lg:text-lg text-neutral-700 mt-3">
-                We’d love to hear from you! Drop us Email and let’s start a conversation.
+                Fill in below form as complete as possible and one of our team members will be in touch with you shortly
             </p>
         </div>
         <div class="flex flex-col gap-y-3">
